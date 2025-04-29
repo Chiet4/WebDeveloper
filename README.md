@@ -1,4 +1,6 @@
-# 📘 Grade de Conteúdo
+# Repositório dedicado para estudo de HTML e CSS
+
+- Abaixo a estrutura e organização das informações que irei pesquisar e estudar a parte do Capacita C-Jovem FullStack Web que estou fazendo.
 
 ### 🧱 HTML e CSS Básico
 - Tags e estrutura HTML  
