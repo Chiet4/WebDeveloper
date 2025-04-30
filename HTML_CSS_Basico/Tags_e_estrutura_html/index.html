@@ -28,15 +28,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Titulo do site</title>
 </head>
 
 <body>
-  <h1>Site principal.</h1>
+  <!-- Ids para identificação e para uso especifico no css -->
+  <h1 id="introducao">Site principal.</h1>
   <p>Cars and Bikes</p>
-  <!-- Links e caminhos, para uso local -->
-  <a href="produtos/cars.html">News cars</a>
-  <a href="produtos/bike.html">Nice bike shoope</a>
+  <!-- Links e caminhos, para uso local. Adicionando classes para o css -->
+  <a class="codigo grande" href="produtos/cars.html">News cars</a> <br>
+  <a class="design" href="produtos/bike.html">Nice bike shoope</a>
+  <p>Veja mais <a href="/">produtos.</a></p>
+
+  <!-- É possível adicionar mais de uma classe a tag -->
+  <h2 class="cor grande underline">Sobre o site</h2>
 </body>
 
 </html>
