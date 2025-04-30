@@ -1,0 +1,55 @@
+/* 
+Seletor e bloco css
+a {
+}
+Muito parecido com os tipos json
+
+A vários seletores, o mais comum é por tag.
+
+h1, p {} - selecionar multiplos elementos 
+p a {} - selecionar 'a' que tiver um 'p' como elemento pai (não precisa ser filho direto).
+
+id 
+#id_nome - Identificador unico de algum elemento é sempre iniciado com #
+
+classe
+.nome_classe - classe é iniciado com ponto '.'
+
+Há mais uso de classes do que id especificos
+
+TEM QUE TOMAR COM OS NOMES, TEM SER EXATAMENTE IGUAIS AOS QUE ESTÃO PRESENTES NO HTML 
+*/
+
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* p a {
+  color: cadetblue;
+} */
+
+#introducao {
+  color: goldenrod;
+}
+
+.codigo {
+  color: yellowgreen;
+}
+
+.design {
+  color: brown;
+}
+
+.cor {
+  color: violet;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grande {
+  font-size: 32px;
+}
