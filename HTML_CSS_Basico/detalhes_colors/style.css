@@ -1,0 +1,22 @@
+/* 
+Background ou background-color - mudar a cor de fundo do elemento.
+*/
+
+/* Pinta fundo do elemento */
+h1 {
+  background: #000000;
+  color: rgba(200, 250, 250, 0.6);
+}
+/* Há também a opição de rgb que é uma função para colocar 3 valores para mesclar cores e gera alguma no final.
+
+o rgba - adicionar transparencia a cor, vai 0 a 1 
+*/
+
+/* Adentro, hexadecimal é forma mais comum de inserir a paleta de cores no site
+  Se atentar a esse detalhe.  
+*/
+a {
+  background: blue;
+  color: white;
+  font-size: 30px;
+}
