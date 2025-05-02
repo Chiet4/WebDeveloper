@@ -1,0 +1,22 @@
+/* 
+Fluxo de layout no html, ocorre conforme o modo de escrita definido. Por padrão, de cima para baixo da esquerda para a direta. 
+*/ 
+/* 
+inline - respeita o fluxo da escrita sem iniciar uma nova linha, não possivel definier valores de 'width','height','margin'(top/botton) - VALOR padrão
+
+block - inicia uma nova linha e não permite que outros elementos sejam posicionados na mesma linha. Aceita todas as propriedades do box model. 
+*/
+
+span, a , strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+div, h1, p {
+  border: 1px, solid rgba(255,0, 0, 0.5);
+}
+
+a {
+  /* Não ocupa o elemento abaixo, aumento dentro da div */
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+}
