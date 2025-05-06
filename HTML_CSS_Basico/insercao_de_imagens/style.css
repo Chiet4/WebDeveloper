@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+}
+/* Dica
+  O ideal é usar a imagem com resolução adequada. 
+  E o width seja a metade do px da imagem
+*/
+.bike{
+  width: 960px;
+}
+
+.jaguar{
+  width: 270px;
+}
