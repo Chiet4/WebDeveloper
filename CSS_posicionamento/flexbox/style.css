@@ -1,0 +1,24 @@
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: rgb(228, 201, 201);
+  height: 100vh;
+}
+
+h2{
+  background-color: #e7e7e7;
+  border: 1px solid gray;
+  margin: 0px;
+  padding: 20px;
+  /* flex-grow, para crescer */
+  /* flex-grow: 1;
+  flex-basis: auto; aumentar o espaço do elemento com que o sobra
+  flex-shrink: 1; 
+  Somente flex, é padrão para todos*/
+  flex: 1;
+}
+
+body{
+  margin: 0px;
+}

@@ -1,4 +1,4 @@
-### TOP, RIGHT, BOTTON, LEFT 
+## TOP, RIGHT, BOTTON, LEFT 
 
 - Propriedades como `margin`, `padding` e `border` permitem definirmos valores diferentes para cada um do lados da caixa(box model). 
 
@@ -14,7 +14,7 @@ div{
 }
 ```
 
-### Grid
+## Grid
 
 - Com o `display: grid` é possível definir colunas e linhas para organizar os elementos que estiverem dentro do grid;
   - grid-template-colums = define o total de colunas e o tamanho de cada uma.
@@ -32,3 +32,15 @@ div{
 - `grid-template-rows`: 100px auto; Defite o tamanho das linhas
 - `grid-auto-rows`: Linhas adicionadas automaticamente com o valor de auto
 - `grid-row:`: Define a linha do item, funciona parecido com grid-column
+
+## Flexbox
+- `diplay: flex`; Os filhos passam a ter um tamanho flexível e ficam um ao lado do outro.
+- `flex-wrap: wrap`; Caso não caiba todos os elementos em uma linha, quebre para a próxima.
+- `gap`; Define uma distância entre os elementos. 
+
+### flex
+
+- `flex-grow: 1`; Se o elemento deve crescer para ocupar o espaço vazio. O `0` impede o crescimento, valores maiores funcionam com unidade de `fr` do css grid.
+- `flex-basis: 200px`: Valor inicial antes ded distribuir o espaço em branco.
+- `flex-shrink: 0`; Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. `0` significa que ele não pode ser reduzido.
+- `flex: 1`; Atalho para as opções anteriores
