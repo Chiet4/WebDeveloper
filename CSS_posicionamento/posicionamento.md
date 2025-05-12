@@ -21,4 +21,14 @@ div{
   - fr = unidade francional que tem com objetivo distribuir o espaço restante entre os elementos do grid
   - gap = Cria uma distancia entre os elementos do grid, tanto no horizontal quanto vertical.
 
-- Justify-content
+### align-items e justify-items
+
+- `align-tems`: start | center | end | stretch; alinha os items na horizontal
+- `justify-items`: start | center | end | stretch; alinha os items na vertical.
+- `place-items`: align justify; é um atalho os dois elementos.
+
+### grid-template-rows
+
+- `grid-template-rows`: 100px auto; Defite o tamanho das linhas
+- `grid-auto-rows`: Linhas adicionadas automaticamente com o valor de auto
+- `grid-row:`: Define a linha do item, funciona parecido com grid-column

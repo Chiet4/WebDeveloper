@@ -1,24 +1,32 @@
-.grid{
+.grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, auto) 1fr;   
+  place-items: start; */
+  /* Manipulado colunas e linhas com grid, evite dessa forma, é muito bagunçada.*/
 }
 
-.foto{
-  /* grid-column: 1 / -1; */
-  grid-column: span 2;
+.titulo{
+  grid-column: 1 /-1;
 }
-.descricao{
-  grid-column: 1 / 3;
+
+.info{
+  place-self: start;
+  display: grid;
+  place-items: start;
+  gap: 10px;
 }
+
 /* geral */
 
-body{
+body {
   font-family: Arial;
   margin: 40px;
 }
 
-h1, p {
+h1,
+p {
   margin: 0px;
 }
 
@@ -27,16 +35,17 @@ h1 {
   line-height: 1;
 }
 
-p, span{
+p,
+span {
   font-size: 20px;
 }
 
-img{
+img {
   max-width: 100%;
   border-radius: 4px;
 }
 
-.comprar{
+.comprar {
   background: #a8f;
   padding: 10px 20px;
   color: #103;
@@ -45,9 +54,8 @@ img{
   font-size: 20px;
 }
 
-.preco{
+.preco {
   background: #ddd;
   padding: 5px 10px;
   border-radius: 4px;
 }
- 
