@@ -44,3 +44,13 @@ div{
 - `flex-basis: 200px`: Valor inicial antes ded distribuir o espaço em branco.
 - `flex-shrink: 0`; Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. `0` significa que ele não pode ser reduzido.
 - `flex: 1`; Atalho para as opções anteriores
+
+**- flex vs grid**: Pode se usar os ambos no layout, resolvem problemas diferentes, o GRID tem controle em todos os eixos e o FLEX apenas no total de itens por linha.
+
+### Position 
+
+- Propriedade com valores que remove o elemento do fluxo de padrão do documento. O padrão é o valor `static`.
+- `position:fixed` : Fixa o elemento na tela.
+- `top, right, left, bottom` : Define o posicionamento dos elementos que não estão no fluxo padrão.
+* Quando se mudar o posicionamento de um elemento, muda o eixo de profundidade do mesmo - `z-index` 
+
