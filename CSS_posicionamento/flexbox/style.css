@@ -2,8 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  background: rgb(228, 201, 201);
-  height: 100vh;
+  /* background: rgb(228, 201, 201);
+  height: 100vh; */
+  justify-content: center;
 }
 
 h2{
@@ -16,9 +17,16 @@ h2{
   flex-basis: auto; aumentar o espaço do elemento com que o sobra
   flex-shrink: 1; 
   Somente flex, é padrão para todos*/
-  flex: 1;
+  /* flex: 1; */
 }
 
 body{
   margin: 0px;
+}
+
+.grid{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  gap: 20px
 }
