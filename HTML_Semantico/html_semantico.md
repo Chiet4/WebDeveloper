@@ -39,3 +39,20 @@
 - Não use com container generico, para isso use a `<div>` para estilização.
 - Consultar se tiver dúvida - [article](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/section).
 - **Usar quando uma seção deve aparecer logicamente na estrutura de um documento**
+
+### aside
+
+- A tag `<aside>` representa uma seção de uma página que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas contem explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.
+- Consultar se tiver dúvida - [asise](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/aside).
+
+### header
+
+- A tag `<header>` marca o cabeçalho do site, onde geralmente estão a marca, navegação do site e alguma informação introdutória.
+- Consultar se tiver dúvida - [header](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/header).
+- Se dentro de outra tag, representará o rodapé da mesma.
+
+### footer
+
+- A tag de Rodapé `<footer>`, normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.
+- Consultar se tiver dúvida - [footer](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/footer).
+- Se dentro de outra tag, representará o rodapé da mesma.
