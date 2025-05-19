@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Semântico - tag main</title>
 </head>
+
 <body>
-  <!-- Aria-label serve como uma etiqueta de da tag. -->
-  <nav aria-label="primário">
+  <!-- Aria-label serve como uma etiqueta da tag. -->
+  <nav aria-label="primária">
     <a href="#">Sobre</a>
     <a href="#">Contato</a>
   </nav>
@@ -15,5 +17,11 @@
     <h1>Grandes Vendas</h1>
     <p>Paragrafo de teste</p>
   </main>
+
+  <article aria-labelledby="sobre">
+    <h2 id="sobre">Sobre a empresa</h2>
+    <p>Fundada a muito tempo, em meados de ...</p>
+  </article>
 </body>
+
 </html>
