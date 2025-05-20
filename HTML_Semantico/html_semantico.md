@@ -56,3 +56,13 @@
 - A tag de Rodapé `<footer>`, normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.
 - Consultar se tiver dúvida - [footer](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/footer).
 - Se dentro de outra tag, representará o rodapé da mesma.
+
+### Listas ul
+
+- A tag `<ul>` marca uma lista de itens sem ordem(unordered list). Cada item da lista deve ser marcado com uma `<li><li>`.
+- Consultar se tiver dúvida - [ul](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/ul).
+- Existe também a `<ol>` que é ordenada. 
+
+### Navegação
+
+- Sem listas e com listas, não é obrigatório o uso de lista.
