@@ -66,3 +66,12 @@
 ### Navegação
 
 - Sem listas e com listas, não é obrigatório o uso de lista.
+
+### Blockquote
+
+- A tag `<blockquote>` marca uma citação extensa e recebe um atributo cite com a fonte.
+- Consultar se tiver dúvida - [blockquote](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/blockquote#notes).
+
+### Strong
+
+- A tag `<strong>` marca um parte importante do conteúdo. 
