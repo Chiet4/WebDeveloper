@@ -1,0 +1,10 @@
+body{
+  margin: 0px;
+}
+
+div{
+  /* Com calc pode se misturar com unidades. */
+  background: lightblue;
+  width: calc(100vw - 100px);
+  height: 100vh;
+}
