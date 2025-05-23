@@ -32,3 +32,35 @@ a:active{
   background: #fda;
   color: #731;
 } */
+
+/* ---------------------------------------------------------------- */
+
+/* .lista-1 li{
+  background: #ffa;
+} */
+
+.lista-1 li:first-child{
+  background: #caf;
+}
+
+.lista-1 li:last-child{
+  background: #cfa;
+}
+
+.lista-1 li:nth-child(4){
+  background-color: lightblue;
+}
+
+.lista-2 li:nth-child(even){
+  background-color: lightblue;
+}
+
+.lista-3 li:not(:first-child,:last-child){
+  background: #caf;
+}
+
+/* Também vale para classes */
+
+h2:not(.contato){
+  text-decoration: underline;
+}

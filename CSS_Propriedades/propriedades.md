@@ -21,3 +21,19 @@
 - `:focus` - Elemento em foco, usando o teclado (tab).
 - `:active` - Quando clicamos no elemento.
 - `:visited` - Para links que já foram visitados.
+- **Ler mais em** - [Pseudo-Classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
+
+### Seletores
+- `:first-child` - Seleciona o primeiro elemento.
+- `:last-child` - Seleciona o último elemento.
+- `:ntd-child(4)` - Seleciona o elemento pelo numero do mesmo.[even, odd, 3n]
+- **Ler mais em** - [seletores](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements).
+
+### :not
+- Nega selação de um elemento especifico.
+
+## Pseudo Elements 
+### ::before e ::after
+Os pseudo elements `::after` e `::before` criam elementos HTML com base no seletor.
+- `content` - Definir um conteúdo para o elemento é essencial para ele existir, mesmo que o conteúdo esteja vazio.
+- Ver mais [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
