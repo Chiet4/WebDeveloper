@@ -1,0 +1,34 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+  /* Uma pequena animação */
+  /* transition: .3s; */
+}
+
+a:hover{
+  background-color: #adf;
+  color: #147;
+}
+
+/* Navegação de tab, elementos que pode ter interação  */
+a:focus{
+  background: #cfa;
+  color: rgb(119, 17, 17);
+  outline: auto;
+}
+
+a:active{
+  background: #ffa;
+  color: #761;
+}
+
+/* Link já visitado */
+/* a:visited {
+  background: #fda;
+  color: #731;
+} */
