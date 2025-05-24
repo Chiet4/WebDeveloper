@@ -1,4 +1,4 @@
-# Repositório dedicado para estudo de HTML e CSS
+# Repositório dedicado para estudo de HTML, CSS e JavaScript
 
 - Abaixo a estrutura e organização das informações que irei pesquisar e estudar a parte do Capacita C-Jovem FullStack Web que estou fazendo.
 
